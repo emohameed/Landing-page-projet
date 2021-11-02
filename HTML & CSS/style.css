@@ -53,6 +53,7 @@ header nav li{
     font-size: 20px;
     font-style: normal;
     font-weight: bold;
+    cursor: pointer;
 }
 header nav li:hover{
     background: white;
@@ -96,6 +97,18 @@ header nav a{
     width: 630px;
     height: 390px;
 }
+.button-container{
+    width: 200px;
+    height: 55px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 300px;
+    color: white;
+    border: 2px solid #203384;
+    border-radius: 5px;
+    background-color: #203384;
+    cursor: pointer;
+}
 
 /* Container END */
 
@@ -104,13 +117,14 @@ header nav a{
     flex-direction: column;
     align-items: center;
     margin: 20px;
+    font-size: 35px;
 }
 .content-second-container{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
-.Planning{
+.content{
     width: 50%;
     height: fit-content;
     margin-top: 50px;
@@ -121,8 +135,31 @@ header nav a{
     align-items: center;
 }
 .content-second-container p{
-    width: 560px;
+    width: 210px;
+    margin-left: 230px;
     height: fit-content;
     text-align: center;
     
+}
+.content-second-container img{
+    width: 80px;
+    height: 80px;
+    margin-right:  10px;
+}
+
+/* How it works END */
+
+/* Offers Start */
+
+.third-container{
+    background-color: #1B5289;
+}
+
+.title-third-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    font-size: 35px;
+    color: white;
 }
