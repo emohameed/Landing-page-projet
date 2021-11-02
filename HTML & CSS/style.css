@@ -154,7 +154,6 @@ header nav a{
 .third-container{
     background-color: #1B5289;
 }
-
 .title-third-container{
     display: flex;
     flex-direction: column;
@@ -162,4 +161,61 @@ header nav a{
     margin-top: 60px;
     font-size: 35px;
     color: white;
+    margin-bottom: 20px;
+}
+.content-third-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+.content-third-container h3{
+    font-size: 25px;
+}
+.first-content{
+    width: 30%;
+    height: fit-content;
+    background-color: #28007B;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+.second-content{
+    width: 30%;
+    height: fit-content;
+    background-color: #28007B;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+.third-content{
+    width: 50%;
+    height: fit-content;
+    background-color: #28007B;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 30px;
+}
+.content-third-container .icons img{
+    width: 80px;
+    height: 80px;
+}
+.content-third-container .icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* offers END */
+
+/* Why us Start */
+.title-fourth-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    font-size: 35px;
+    margin-bottom: 20px;
 }
