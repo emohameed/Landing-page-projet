@@ -219,3 +219,27 @@ header nav a{
     font-size: 35px;
     margin-bottom: 20px;
 }
+.content-fourth-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    font-size: 1.5em;
+}
+
+.img-parg{
+    display: flex;
+    margin: 15px 30px;
+}
+.img-parg img{
+    margin-right: 30px;
+}
+.img-parg p{
+    padding-top: 35px;
+}
+
+/* END */
+
+/* Start */
+.fifth-container{
+    background-color: #1B5289;
+}
