@@ -67,6 +67,19 @@ header nav a{
     text-decoration: none;
     color: #109594;
 }
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    padding-top: 20px;
+  }
+  #check{
+    display: none;
+  }
 
 /* Nav-bar END */
 
@@ -321,5 +334,39 @@ form input[type=submit]{
     padding: 5px 20px;
 }
 
+/* Responsive website Mobile part */
+/* Media Query */
 
+@media screen and (max-width:428px ) {
+    
+    /* Nav-bar */
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: #1B5289;
+        top: 72px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+      }
+      nav ul li{
+        display: block;
+        margin: 90px 0;
+        line-height: 30px;
+      }
+      nav ul li:hover{
+          background-color: white;
+      }
+      nav ul li a{
+        font-size: 2em;
+      }
+      #check:checked ~ ul{
+        left: 0;
+      }
+    
+}
 
