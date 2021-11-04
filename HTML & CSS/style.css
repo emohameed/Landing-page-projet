@@ -86,6 +86,7 @@ header nav a{
 /* Container */
 .container{
     display: flex;
+    flex-wrap: wrap;
     padding-top: 70px;
     background-color: #1B5289;
 }
@@ -117,7 +118,8 @@ header nav a{
     height: 55px;
     font-size: 25px;
     font-weight: 600;
-    margin-left: 300px;
+    margin-left: 150px;
+    margin-bottom: 30px;
     color: white;
     border: 2px solid #203384;
     border-radius: 5px;
@@ -343,6 +345,11 @@ form input[type=submit]{
     .checkbtn{
         display: block;
     }
+    header nav {
+        margin-right: 0px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
     ul{
         position: fixed;
         width: 100%;
@@ -355,8 +362,8 @@ form input[type=submit]{
       }
     nav ul li{
         display: block;
-        margin: 90px 0;
-        line-height: 30px;
+        margin: 30px 0;
+        line-height: 10px;
       }
     nav ul li:hover{
           background-color: white;
@@ -367,6 +374,15 @@ form input[type=submit]{
     #check:checked ~ ul{
         left: 0;
       }
+    #header-logo{
+        width: 50px;
+        height: 50px;
+        margin-left: 0px;
+    }
+    header .logo p{
+        font-size: 20px;
+        margin-left: 5px;
+    }
 
       /* Container */
 
@@ -374,15 +390,22 @@ form input[type=submit]{
         display: flex;
         flex-direction: column;
         padding-top: 70px;
+        text-align: center;
         background-color: #1B5289;
     }
     .container .title-paragraph{
         width: 100%;
         height: fit-content;
     }
+    .container .title-paragraph h1{
+        font-size: 25px;
+        color: white;
+        margin-left: 0px;
+    }
     .container .webdev-img img{
         width: 350px;
         height: 250px;
+        margin-left: 26px;
     }
     .container .title-paragraph p{
         margin-left: 0px;
@@ -391,5 +414,143 @@ form input[type=submit]{
         font-weight: 100;
         color: #4FE5B6;
     }
+    .button-container{
+        width: 200px;
+        height: 55px;
+        font-size: 25px;
+        font-weight: 600;
+        margin-left: 0px;
+        color: white;
+        border: 2px solid #203384;
+        border-radius: 5px;
+        background-color: #203384;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    .content-second-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .content-second-container p{
+        width: 210px;
+        height: fit-content;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .img-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-third-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .first-content{
+        width: 70%;
+        height: fit-content;
+        background-color: #28007B;
+        text-align: center;
+        border-radius: 10px;
+        color: white;
+    }
+    .second-content{
+        width: 70%;
+        height: fit-content;
+        background-color: #28007B;
+        text-align: center;
+        border-radius: 10px;
+        color: white;
+        margin-top: 30px;
+    }
+    .third-content{
+        width: 70%;
+        height: fit-content;
+        background-color: #28007B;
+        margin-top: 30px;
+        text-align: center;
+        border-radius: 10px;
+        color: white;
+        margin-bottom: 30px;
+    }
+    .title-fourth-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .content-fourth-container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        font-size: 1em;
+    }
+    .img-parg img{
+        margin-right: 30px;
+        width: 50px;
+        height: 50px;
+    }
+    .img-parg{
+        display: flex;
+        margin: 15px 30px;
+        text-align: center;
+    }
+    .img-parg p{
+        padding-top: 0px;
+    }
+    .content-fifth-container{
+        padding-top: 30px;
+        text-align: center;
+        color: white;
+    }
+    .content-fifth-container h2{
+        font-size: 2em;
+    }
+    form .inputs{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+    form .inputs input{
+        padding: 10px 5px;
+        width: 160%;
+        margin-left: 20px;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    form textarea{
+        margin-left: 20px;
+        padding: 10px 5px;
+        margin-top: 50px;
+        border: 2px solid white;
+        border-radius: 5px;
+        resize: none;
+        width: 80%;
+    }
+    form input[type=submit]{
+        margin-top: 20px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #28007B;
+        color: white;
+        font-weight: 600;
+        margin-left: 157px;
+        margin-bottom: 20px;
+    }
+
+
+
 }
 
