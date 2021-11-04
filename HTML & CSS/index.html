@@ -4,13 +4,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Web Development</title>
 </head>
 <body>
     <header class="header-bar">
         <div class="logo">
             <img id="header-logo" src="logo.png">
-            <p><span id="web">web.</span><span id="dev">dev</span></p>
+            <p><span class="web">web.</span><span class="dev">dev</span></p>
         </div>
         <nav class="nav-bar">
             <ul>
@@ -162,25 +163,51 @@
             </div>
         </section>
         <section class="fifth-container" id="contact">
-            <h2>Let Get Started<br><span class="style-word">your project</span></h2>
-            <p>We will help you to achieve your goals and to grow your business</p>
-            <h2>Please complete the form</h2>
-            <p>We will reply as soon as possible</p>
+            <div class="content-fifth-container">
+                <h2><span class="style-word">Let Get Started</span><br>your project</h2>
+                <p>We will help you to achieve your goals and to grow your business</p>
+                <h2>Please complete the form</h2>
+                <p>We will reply as soon as possible</p>
+            </div>
             <form>
-                <label id="First-name"></label>
-                <input type="text" name="First-name" placeholder="First Name">
-                <label id="Last-name"></label>
-                <input type="text" name="Last-name" placeholder="Last Name"><br>
-                <label id="Phone-number"></label>
-                <input type="text" name="Phone-number" placeholder="Last Name">
-                <label id="Email-address"></label>
-                <input type="text" name="Email-address" placeholder="Last Name"><br>
+                <div class="inputs">
+                    <div class="content">
+                        <label for="First-name"></label>
+                        <input type="text" name="First-name" placeholder="First Name">
+                    </div>
+                    <div class="content">
+                        <label for="Last-name"></label>
+                        <input type="text" name="Last-name" placeholder="Last Name">
+                    </div>
+                    <div class="content">
+                        <label for="Phone-number"></label>
+                        <input type="text" name="Phone-number" placeholder="Phone Number">
+                    </div>
+                    <div class="content">
+                        <label for="Email-address"></label>
+                        <input type="text" name="Email-address" placeholder="Email Address">
+                    </div>
+                </div>
                 <textarea cols="30" rows="5" placeholder="How we can help you?"></textarea><br>
                 <input type="submit" value="SEND">
+                <div class="clearfix"></div>
             </form>
-
         </section>
     </main>
+    <footer>
+        <div class="footer-follow-us">
+            <span>Follow us</span>
+            <i class="fa fa-twitter-square fa-2x" aria-hidden="true" style="color: #1DA1F2;"></i>
+            <i class="fa fa-facebook-official fa-2x" aria-hidden="true" style="color: #3B5998;"></i>
+            <i class="fa fa-instagram fa-2x" aria-hidden="true" style="color: #C13584;"></i>
+            <i class="fa fa-github-square fa-2x" aria-hidden="true" style="color: #181717;"></i>
+            <i class="fa fa-youtube-play fa-2x" aria-hidden="true" style="color: #FF0000;"></i>
+        </div>
+        <div class="footer-copyright">
+            <p>© All rights resereved. Created by <span class="web">web.</span><span class="dev">dev</span></p>
+
+        </div>
+    </footer>
     
 </body>
 </html>
